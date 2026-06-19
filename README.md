@@ -31,6 +31,13 @@ docker rm -f $(docker ps -aq)
 
 ```
 
+- remove all the iamges (used or un-used) be careful to use this command since it will delete all the images lcoally
+
+```shell
+docker system prune -a
+
+```
+
 ## if you want to know more about cmd and entrypoint in Dockerfile please check my another folder named cmd-entrypoint-diff in this repo
 
 
