@@ -24,6 +24,13 @@ docker run -it python-calc-maxwell:1.1.1
 ![app-run](./app_run.png)
 
 
+- remove all the containers (running or stopped)
+
+```shell
+docker rm -f $(docker ps -aq)
+
+```
+
 ## if you want to know more about cmd and entrypoint in Dockerfile please check my another folder named cmd-entrypoint-diff in this repo
 
 
